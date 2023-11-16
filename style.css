@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Work+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* top container start */
+.top-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+    background-color: #212121;
+}
+.top-box{
+    display: flex;
+    
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.text a{
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    height: 100%;
+}
+.text{
+    width: 100px;
+}
+.text:hover{
+    border-bottom: 4px solid #ecac02;
+}
+.text1:hover{
+    border-bottom: none;
+}
+.mc-img{
+    width: 150px;
+    height: 100px;
+}
+.text a{
+    text-decoration: none;
+}
+.mc-img img{
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.yellow{
+    background-color: #ecac02;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 160px;
+    text-decoration: none;
+    color: white;
+    font-size: 1px;
+    line-height: 100px;
+    transition: all .5s linear 0s;
+    color: #fff;
+    
+}
+.yellow:hover{
+    background-color: #ffc107; ;
+}
+.red:hover{
+    background-color: #dc3545;;
+}
+.yellow img{
+    width: 20px;
+    height: 20px;
+}
+.red{
+    background-color: #bd0017;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    height: 100%;
+    line-height: 100px;
+    transition: all .5s linear 0s;
+    color: #fff;
+}
+
+
+/*top container end */
+
+/* slide container start*/
+
+
+
+/*slide container end*/
+
+
+/*third box start*/
+.container3{
+    display: flex;
+}
+.card{
+    background-color: red;
+    border:1px solid white;
+}
+.card-body{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    
+}
+.card-body a{
+    width: 230px;
+    height: 40px;
+    background-color: #ecac02;
+    border-radius: 20px;
+    border: 1px solid #ecac02;
+}
+
+
+/*third box end*/
+
+.follow h1{
+    font-size: 5rem;
+}
+/* 
+social media stars */
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box p{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+/* 
+social media end */
+
+/* 
+last container start */
+.last-container{
+    display: flex;
+    background-color: #282a2c;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+}
+.tel{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.tel a{
+    display: flex;
+    gap: 25px;
+}
+.tel a h1{
+    color: #fcca31;
+    font-size: 3.5rem;
+}
+.last-box a{
+    text-decoration: none;
+    color: white;
+}
+.last-box p{
+    color: white;
+}
+
+/* 
+last container end */
